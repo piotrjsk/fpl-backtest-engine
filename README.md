@@ -65,7 +65,7 @@ While the statistical Poisson model is competitive early in the season, the expe
 ## How to Run
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/fpl-backtest-engine.git
+git clone https://github.com/piotrjsk/fpl-backtest-engine.git
 cd fpl-backtest-engine
 
 # Install dependencies
