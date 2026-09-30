@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cextensions
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables (keep local config private)
+.env
+!.env.example
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDEs & Code Editors
+.vscode/
+.idea/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# SQLite Database (if generated locally)
+*.db
+*.sqlite3
+
+# Large raw datasets (ignored to save space & bypass GitHub file size limits)
+data/*.csv
+data/*.parquet
+
+# Keep directory structures intact
+!data/.gitkeep
+!outputs/.gitkeep
