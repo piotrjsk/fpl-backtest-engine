@@ -49,17 +49,22 @@ While the statistical Poisson model is competitive early in the season, the expe
 
 ## Repository Structure
 ```text
+.
+├── run_backtest.py                 # Main execution script and evaluation loop
+├── requirements.txt
+├── README.md                       # Project documentation
+│
 ├── data/
 │   └── merged_gw.csv               # Raw gameweek dataset
+│
 ├── outputs/
 │   ├── backtest_metrics_summary.csv # Exported evaluation metrics
 │   └── backtest_performance_comparison.png # Matplotlib visualization
-├── src/
-│   ├── loader.py                   # Data ingestion, cleaning, and rolling feature generation
-│   └── models.py                   # ML pipelines, Poisson calculations, and positional encoding
-├── run_backtest.py                 # Main execution script and evaluation loop
-├── requirements.txt
-└── README.md
+│
+└── src/
+    ├── loader.py                   # Data ingestion, cleaning, and rolling feature generation
+    └── models.py                   # ML pipelines, Poisson calculations, and positional encoding
+
 ```
 
 ## How to Run
@@ -76,4 +81,4 @@ python run_backtest.py
 ```
 
 ---
-*Developed by Piotr Jasiak | [LinkedIn Profile](your-link)*
+*Developed by Piotr Jasiak | [LinkedIn Profile](https://www.linkedin.com/in/piotrjasiak)*
