@@ -1,9 +1,9 @@
 # FPL Predictive Engine: ML vs. Poisson Backtest
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-Data_Processing-150458.svg)](https://pandas.pydata.org/)
-[![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-Machine_Learning-F7931E.svg)](https://scikit-learn.org/)
-[![XGBoost](https://img.shields.io/badge/XGBoost-Gradient_Boosting-green.svg)](https://xgboost.readthedocs.io/)
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Pandas](https://img.shields.io/badge/Pandas-Data_Processing-150458.svg)
+![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-Machine_Learning-F7931E.svg)
+![XGBoost](https://img.shields.io/badge/XGBoost-Gradient_Boosting-green.svg)
 
 ## Project Overview
 This repository contains a robust Data Science pipeline and backtesting engine for predicting Fantasy Premier League (FPL) expected points (xP). The project evaluates the crossover point where Machine Learning algorithms (XGBoost, Random Forest) begin to outperform a traditional statistical Poisson-based baseline across a 38-gameweek season. 
