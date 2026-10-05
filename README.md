@@ -51,7 +51,9 @@ While the statistical Poisson model is competitive early in the season, the expe
 ```text
 .
 ├── run_backtest.py                 # Main execution script and evaluation loop
-├── requirements.txt
+├── requirements.txt                # Dependency requirements
+├── .env.example                    # Environment variables
+├── .gitignore                      # Git exclusion rules
 ├── README.md                       # Project documentation
 │
 ├── data/
@@ -74,7 +76,7 @@ git clone https://github.com/piotrjsk/fpl-backtest-engine.git
 cd fpl-backtest-engine
 
 # Install dependencies
-pip install pandas numpy scikit-learn xgboost matplotlib
+pip install -r requirements.txt
 
 # Execute the backtest pipeline
 python run_backtest.py
